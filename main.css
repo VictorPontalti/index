@@ -1,5 +1,6 @@
 body{
 	margin: 0 auto;
+	background-color:#ddd;
 	
 
 }
@@ -29,7 +30,7 @@ body{
 	width: 50%;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1080px){
 	.box{
 		width: 100%;
 				font-size: 2.5rem;
