@@ -1,0 +1,41 @@
+body{
+	margin: 0 auto;
+	
+
+}
+.container{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.box{
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.2rem;
+	color: #121212;
+}
+
+.box a{
+	color: #123456;
+}
+
+.logo{
+	width: 50%;
+}
+
+@media screen and (max-width: 780px){
+	.box{
+		width: 100%;
+				font-size: 1.5rem;
+	}
+
+	.logo{
+		width: 80%;
+	}
+}
