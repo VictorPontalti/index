@@ -29,10 +29,10 @@ body{
 	width: 50%;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 980px){
 	.box{
 		width: 100%;
-				font-size: 1.5rem;
+				font-size: 2.5rem;
 	}
 
 	.logo{
